@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Trigger
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":655.5746,"y":307.687},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"0a0736e8-694e-4cff-8261-0b9cf468986d","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-211.0,"y":-50.0},"guid":"afc86297-2500-41f7-a50d-cf1b22ffc91b","$version":"A","$type":"Bolt.Update"},{"chainable":false,"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":356.0,"y":241.0},"guid":"231d8026-6169-40fd-96a0-c6ec7d1a847b","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"kind":"Scene","defaultValues":{"name":{"$content":"CoillderName","$type":"System.String"}},"position":{"x":31.0,"y":425.0},"guid":"46eb07f1-3528-48c3-81d3-9d6a07b65c01","$version":"A","$type":"Bolt.SetVariable","$id":"16"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":19.0,"y":243.0},"guid":"91a483c5-f3cd-42c0-b5d7-821091991dc9","$version":"A","$type":"Bolt.OnTriggerEnter","$id":"18"},{"type":"Bolt.FlowMachine","value":null,"defaultValues":{},"position":{"x":-8.0,"y":81.0},"guid":"22622d6d-3054-41b9-8af6-794ecd9e0423","$version":"A","$type":"Bolt.Literal"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"PlayerFlow","$type":"System.String"}},"position":{"x":-8.0,"y":-13.0},"guid":"3649d51d-6408-46f7-b4db-aca680499a54","$version":"A","$type":"Bolt.GetVariable"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"\u9032\u5165MemoryMaze","$type":"System.String"}},"position":{"x":279.0,"y":448.0},"guid":"71f0a8fc-eecf-4762-ad62-bb8fddd49ae8","$version":"A","$type":"Bolt.GetVariable","$id":"24"},{"sourceUnit":{"$ref":"18"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"03abb0d7-2059-48d7-af35-9127709e320b","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"collider","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"6e7dec6d-083a-4bca-86fc-53d9b6d45b2d","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"%message","guid":"218447c9-eef9-4081-a4bf-95c5a4bb9358","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

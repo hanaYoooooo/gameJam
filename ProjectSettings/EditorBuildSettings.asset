@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/william/Scene/main.unity
+    guid: ed1bc8ce961c29744aa713ef80c8a0fc
+  - enabled: 1
+    path: Assets/william/Scene/memoryMaze.unity
+    guid: 9a787d9827e9fd543b9cc49b83275d3c
   m_configObjects: {}
