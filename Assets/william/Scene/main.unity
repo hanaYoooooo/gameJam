@@ -2453,7 +2453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"CoillderName","value":null,"$version":"A"},{"name":"PlayerFlow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u9032\u5165MemoryMaze","value":{"$content":"\u89f8\u767cMemoryMazeTrigger\uff0c\u50b3\u63db\u5834\u666f\u5230MemoryMaze","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"CoillderName","value":null,"$version":"A"},{"name":"PlayerFlow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u9032\u5165MemoryMaze","value":{"$content":"\u89f8\u767cMemoryMazeTrigger\uff0c\u50b3\u63db\u5834\u666f\u5230MemoryMaze","$type":"System.String"},"$version":"A"},{"name":"val1","value":{"$content":100,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 908646756}
 --- !u!4 &2108927630
