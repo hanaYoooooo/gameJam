@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: ApplicationVariables
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"inventory","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.String,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"InventoryManager","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inventoryUI","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"inventory","value":{"$content":[0,1,2],"$type":"System.Collections.Generic.List`1[[UnityEngine.ScriptableObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"InventoryManager","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inventoryUI","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
+    - {fileID: 11400000, guid: 1d3d717ff6c366e4a88dc1916c4595b9, type: 2}
+    - {fileID: 11400000, guid: e0709c1e0afab75439081818dfaa1717, type: 2}
+    - {fileID: 11400000, guid: 76f7e6640fef5944c84d25e0a0d53def, type: 2}
     - {fileID: 4560899472297464623, guid: 924062a23cd47e64da78e759da34aa6c, type: 3}
     - {fileID: 575093776591669506, guid: 65a2dc6ae19fd484db2b77626a1f241f, type: 3}
