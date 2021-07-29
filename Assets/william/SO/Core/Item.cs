@@ -22,5 +22,6 @@ public class ItemData
 [CreateAssetMenu(fileName = "New Item", menuName = "Item/Item Data", order = 1)]
 public class Item : ScriptableObject
 {
+    public string _name;
     public ItemData m_ItemData;
 }
