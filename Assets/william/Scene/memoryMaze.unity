@@ -1732,8 +1732,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Goal","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1385429608}
 --- !u!4 &1021452310
 Transform:
   m_ObjectHideFlags: 0
@@ -3339,9 +3340,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerFlow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerFlow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Goal","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"next
+      scene","value":{"$content":"main","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 908646756}
+    - {fileID: 1385429608}
 --- !u!4 &2108927630
 Transform:
   m_ObjectHideFlags: 0
