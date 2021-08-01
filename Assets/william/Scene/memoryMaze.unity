@@ -1544,6 +1544,11 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!4 &908646763 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+  m_PrefabInstance: {fileID: 5393215579111688471}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &923704837
 GameObject:
   m_ObjectHideFlags: 0
@@ -2943,7 +2948,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897643976}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -3426,7 +3431,7 @@ MonoBehaviour:
     _objectReferences:
     - {fileID: 908646756}
     - {fileID: 1385429608}
-    - {fileID: 908646755}
+    - {fileID: 908646763}
 --- !u!4 &2108927630
 Transform:
   m_ObjectHideFlags: 0

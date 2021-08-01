@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473b8e3bc9f0374c802d26823ecb5a1, type: 3}
   m_Name: maze1_1
   m_EditorClassIdentifier: 
+  _name: 
   m_ItemData:
     m_Name: "\u65E5\u8A181"
     m_ItemType: 0
