@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9473b8e3bc9f0374c802d26823ecb5a1, type: 3}
+  m_Name: maze1_3
+  m_EditorClassIdentifier: 
+  _name: 
+  m_ItemData:
+    m_Name: "\u65E5\u8A183"
+    m_ItemType: 0
+    m_DisplayImage: {fileID: 2800000, guid: 9631c8200584f31468de7471b7a11acf, type: 3}
+    m_Description: "\u8FF7\u5BAE\u4E00\u767C\u73FE\u7684\u65E5\u8A18\u672C"
+    m_HasGotten: 0
