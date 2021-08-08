@@ -9,7 +9,19 @@ EditorBuildSettings:
     path: Assets/william/Scene/main.unity
     guid: ed1bc8ce961c29744aa713ef80c8a0fc
   - enabled: 1
-    path: Assets/william/Scene/memoryMaze.unity
+    path: Assets/william/Scene/memoryMaze1.unity
     guid: 9a787d9827e9fd543b9cc49b83275d3c
+  - enabled: 1
+    path: Assets/william/Scene/road.unity
+    guid: bffbc791cf0a7174393858b604669abc
+  - enabled: 1
+    path: Assets/william/Scene/garden.unity
+    guid: 1730fad370035064aa1f7fb46cc4dc35
+  - enabled: 1
+    path: Assets/william/Scene/memoryMaze2.unity
+    guid: c71a07922e6be1e41bf8a14d3765bddb
+  - enabled: 1
+    path: Assets/william/Scene/home.unity
+    guid: 7ec586d38b28d1f418391dee2d6d3d12
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
