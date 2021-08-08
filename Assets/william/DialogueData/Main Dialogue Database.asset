@@ -570,11 +570,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -616,13 +616,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 282.1277
-        y: 205.10635
+        x: 281.06384
+        y: 206.1702
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.6700002
+    canvasScrollPosition: {x: 0, y: 59.945778}
+    canvasZoom: 0.93999994
   - id: 2
     fields:
     - title: Title
