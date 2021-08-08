@@ -2679,7 +2679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerFlow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"next
-      scene","value":{"$content":"memoryMaze","$type":"System.String"},"$version":"A"},{"name":"inventoryUI","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      scene","value":{"$content":"memoryMaze1","$type":"System.String"},"$version":"A"},{"name":"inventoryUI","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 908646756}
     - {fileID: 0}
