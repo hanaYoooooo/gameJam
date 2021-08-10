@@ -321,7 +321,7 @@ MonoBehaviour:
   sequenceSpeaker: {fileID: 0}
   sequenceListener: {fileID: 0}
   waitOneFrameOnStartOrEnable: 1
-  alertMessage: 
+  alertMessage: "\u8FF7\u5BAE\u4E00\u4EFB\u52D9\u7D50\u675F"
   textTable: {fileID: 0}
   alertDuration: 0
   sendMessages: []
@@ -348,7 +348,16 @@ MonoBehaviour:
   monitorConversationDistanceFrequency: 1
   showCursorDuringConversation: 0
   pauseGameDuringConversation: 0
-  setActiveActions: []
+  setActiveActions:
+  - condition:
+      luaConditions: []
+      questConditions: []
+      acceptedTags: []
+      acceptedGameObjects: []
+      luaWizardIndex: 0
+      lastEvaluationValue: 0
+    target: {fileID: 442911340}
+    state: 1
   setEnabledActions: []
   setAnimatorStateActions: []
   onExecute:
@@ -1569,7 +1578,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385429608}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
