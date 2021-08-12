@@ -213,6 +213,86 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - guid: f93b5892-1197-4413-87f4-3a605e9f1aad
+    onExecute:
+      m_PersistentCalls:
+        m_Calls: []
+  - guid: 0018ae51-ec39-44fe-b499-0db24ca102e4
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 908646755}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 22957113-443b-40a2-9b4f-8a168ed79b93
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 135756641613574975}
+          m_TargetAssemblyTypeName: StarterAssets.StarterAssetsInputs, Assembly-CSharp
+          m_MethodName: SetCursorInputForLook
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: faada10f-9c6d-4378-abf1-71a2015eadee
+    onExecute:
+      m_PersistentCalls:
+        m_Calls: []
+  - guid: c7d12756-4345-4a7c-9ec2-e6ef3217fa1b
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 135756641613574975}
+          m_TargetAssemblyTypeName: StarterAssets.StarterAssetsInputs, Assembly-CSharp
+          m_MethodName: SetCursorInputForLook
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+  - guid: 5fd46e64-b739-487e-ae77-cb9f0d59d7db
+    onExecute:
+      m_PersistentCalls:
+        m_Calls: []
+  - guid: 67a2b251-ff55-4883-9bf8-4870a4bca5bc
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 135756641613574975}
+          m_TargetAssemblyTypeName: StarterAssets.StarterAssetsInputs, Assembly-CSharp
+          m_MethodName: SetCursorInputForLook
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+  - guid: 6ef1f308-5656-4def-8b41-518524bc131e
+    onExecute:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!4 &41476190
 Transform:
   m_ObjectHideFlags: 0
@@ -1003,7 +1083,7 @@ MonoBehaviour:
   conversationActor: {fileID: 908646758}
   startConversationEntryID: -1
   exclusive: 0
-  replace: 0
+  replace: 1
   skipIfNoValidEntries: 1
   stopConversationOnTriggerExit: 0
   stopConversationIfTooFar: 0
@@ -3215,6 +3295,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5420857361349278248, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: cursorInputForLook
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_Name
       value: PlayerCapsule

@@ -311,11 +311,11 @@ MonoBehaviour:
     luaWizardIndex: -1
     lastEvaluationValue: 0
   setQuestState: 1
-  questName: 
-  questState: 0
-  setQuestEntryState: 0
+  questName: maze1out
+  questState: 4
+  setQuestEntryState: 1
   questEntryNumber: 1
-  questEntryState: 0
+  questEntryState: 4
   luaCode: 
   sequence: 
   sequenceSpeaker: {fileID: 0}
@@ -428,6 +428,38 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 1
+          m_CallState: 2
+  - guid: 725fa05c-e0d6-4d9a-9622-5a8480b3b205
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 135756641613574975}
+          m_TargetAssemblyTypeName: StarterAssets.StarterAssetsInputs, Assembly-CSharp
+          m_MethodName: SetCursorInputForLook
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+  - guid: 2c13c897-7c0a-4677-8413-f702e3a6dc89
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 135756641613574975}
+          m_TargetAssemblyTypeName: StarterAssets.StarterAssetsInputs, Assembly-CSharp
+          m_MethodName: SetCursorInputForLook
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
           m_CallState: 2
 --- !u!4 &531313933
 Transform:
@@ -2591,7 +2623,7 @@ MonoBehaviour:
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
   exclusive: 0
-  replace: 0
+  replace: 1
   skipIfNoValidEntries: 1
   stopConversationOnTriggerExit: 0
   stopConversationIfTooFar: 0
@@ -2885,12 +2917,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerFlow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"maze1GoalTrigger","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"next
-      scene","value":{"$content":"main","$type":"System.String"},"$version":"A"},{"name":"target","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"inventory","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"thisSceneMissionObj","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"next
+      scene","value":{"$content":"main","$type":"System.String"},"$version":"A"},{"name":"target","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inventoryData","value":{"$content":[3,4,5],"$type":"System.Collections.Generic.List`1[[UnityEngine.ScriptableObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 908646756}
     - {fileID: 442911339}
     - {fileID: 908646763}
+    - {fileID: 11400000, guid: 1d3d717ff6c366e4a88dc1916c4595b9, type: 2}
+    - {fileID: 11400000, guid: e0709c1e0afab75439081818dfaa1717, type: 2}
+    - {fileID: 11400000, guid: 76f7e6640fef5944c84d25e0a0d53def, type: 2}
 --- !u!4 &2108927630
 Transform:
   m_ObjectHideFlags: 0

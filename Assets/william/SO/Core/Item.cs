@@ -7,6 +7,7 @@ public enum ItemType
     Maze1 = 0,
     Maze2,
     Maze3,
+    Park,
 }
 
 [System.Serializable]
