@@ -8,6 +8,7 @@ public enum ItemType
     Maze2,
     Maze3,
     Park,
+    Home,
 }
 
 [System.Serializable]

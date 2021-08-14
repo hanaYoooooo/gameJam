@@ -23,5 +23,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/william/Scene/home.unity
     guid: 7ec586d38b28d1f418391dee2d6d3d12
+  - enabled: 1
+    path: Assets/william/Scene/memoryMaze3.unity
+    guid: 3cf88c1c7a6fef444ae17d6b7c17036e
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
