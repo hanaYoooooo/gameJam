@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 442911342}
   - component: {fileID: 442911341}
   m_Layer: 0
-  m_Name: maze1GoalTrigger
+  m_Name: GoalTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -335,7 +335,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: "\u51FA\u8FF7\u5BAE1"
+  conversation: "\u51FA\u8FF7\u5BAE\u4E00"
   conversationConversant: {fileID: 442911340}
   conversationActor: {fileID: 908646763}
   startConversationEntryID: -1
@@ -2529,7 +2529,7 @@ GameObject:
   - component: {fileID: 1901829679}
   - component: {fileID: 1901829678}
   m_Layer: 0
-  m_Name: maze1IntroTrigger
+  m_Name: IntroTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
