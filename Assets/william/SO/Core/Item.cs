@@ -16,9 +16,10 @@ public class ItemData
 {
     public string m_Name;
     public ItemType m_ItemType;
-    public Texture2D m_DisplayImage;
+    public Sprite m_DisplayImage;
     public string m_Description;
     public bool m_HasGotten;
+    public string m_Order;
 }
 
 [CreateAssetMenu(fileName = "New Item", menuName = "Item/Item Data", order = 1)]
