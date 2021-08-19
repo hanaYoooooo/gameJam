@@ -8,6 +8,7 @@ public class SortGameElement : MonoBehaviour
     public Image image;
     public Text text;
     public string order;
+    public bool canGrabbed = false;
     // Start is called before the first frame update
     void Start()
     {

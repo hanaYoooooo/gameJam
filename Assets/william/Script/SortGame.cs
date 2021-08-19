@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEngine.UI.Extensions.ReorderableList;
 
 public class SortGame : MonoBehaviour
 {
@@ -60,5 +61,12 @@ public class SortGame : MonoBehaviour
         {
             Debug.Log("µª¿ù ");
         }
+    }
+
+    public void TestReOrderableListTarget(ReorderableListEventStruct item)
+    {
+        Debug.Log("Event Received");
+        Debug.Log("Hello World, is my item a clone? [" + item.IsAClone + "]");
+        //item.SourceObject.GetComponent<SortGameElement>().canGrabbed
     }
 }
