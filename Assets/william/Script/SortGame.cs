@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,7 @@ public class SortGame : MonoBehaviour
     public Transform checkItemsRoot;
     public GameObject SortGameElementTemplate;
     public SortGameAnswer sortGameAnswer;
+    private string[] checkResult = new string[9];
 
     private List<SortGameElement> sortGameElements = new List<SortGameElement>();
 
@@ -34,7 +36,7 @@ public class SortGame : MonoBehaviour
             {
                 GameObject go = Instantiate(SortGameElementTemplate, myItemsRoot);
                 SortGameElement sge = go.GetComponent<SortGameElement>();
-                sge.SetData(Items[i].m_ItemData.m_DisplayImage, Items[i].m_ItemData.m_Name, Items[i].m_ItemData.m_Order);
+                sge.SetData(Items[i].m_ItemData.m_DisplayImage, Items[i].m_ItemData.m_Description, Items[i].m_ItemData.m_Order);
                 sortGameElements.Add(sge);
             }
         }
@@ -48,25 +50,50 @@ public class SortGame : MonoBehaviour
     public void CheckSortGameResult()
     {
         string result = "";
-        foreach(var go in sortGameElements)
+        bool hasEmpty = false;
+        foreach (var go in checkResult)
         {
-            result += go.order;
+            if (string.IsNullOrEmpty(go))
+            {
+                hasEmpty = true;
+            }
+            else
+            {
+                result += go;
+            }
         }
         Debug.Log("result = " + result);
-        if(string.Equals(result, sortGameAnswer.m_Answer))
+        if(string.Equals(result, sortGameAnswer.m_Answer) && !hasEmpty)
         {
             Debug.Log("答對 ");
         }
         else
         {
-            Debug.Log("答錯 ");
+            Debug.Log("答錯 或仍有選項未填");
         }
     }
 
     public void TestReOrderableListTarget(ReorderableListEventStruct item)
     {
         Debug.Log("Event Received");
-        Debug.Log("Hello World, is my item a clone? [" + item.IsAClone + "]");
-        //item.SourceObject.GetComponent<SortGameElement>().canGrabbed
+        Debug.Log("Hello World, is my item a clone? [" + item.IsAClone + "]" + item.FromList.gameObject.name);
+    }
+
+    public void AddedReOrderableListTarget(ReorderableListEventStruct item)
+    {
+        Debug.Log("Hello World, is my item a clone? [" + item.IsAClone + "]" + item.ToList.gameObject.name);
+        string sArray = item.ToList.gameObject.name.Substring(4,1);
+        int result = Int32.Parse(sArray);
+        Debug.Log("index = " + result);
+        checkResult[result - 1] = sArray;
+    }
+
+    public void RemovedReOrderableListTarget(ReorderableListEventStruct item)
+    {
+        Debug.Log("Hello World, is my item a clone? [" + item.IsAClone + "]" + item.FromList.gameObject.name);
+        string sArray = item.FromList.gameObject.name.Substring(4, 1);
+        int result = Int32.Parse(sArray);
+        Debug.Log("index = " + result);
+        checkResult[result - 1] = string.Empty;
     }
 }

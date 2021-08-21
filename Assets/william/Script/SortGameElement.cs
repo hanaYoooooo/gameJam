@@ -12,19 +12,19 @@ public class SortGameElement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void SetData(Sprite sp,string name, string orderData)
+    public void SetData(Sprite sp, string description, string orderData)
     {
-        image.sprite = sp;
-        text.text = name;
+        //if (image.sprite) image.sprite = sp ? sp : null;
+        text.text = description;
         order = orderData;
     }
 }
