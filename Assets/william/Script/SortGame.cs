@@ -1,3 +1,4 @@
+using StarterAssets;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -15,11 +16,22 @@ public class SortGame : MonoBehaviour
     private string[] checkResult = new string[9];
 
     private List<SortGameElement> sortGameElements = new List<SortGameElement>();
-
+    private StarterAssetsInputs playerStarterAssetsInputs;
+    private FirstPersonController firstPersonController;
     // Start is called before the first frame update
     void Start()
     {
+        init();
+    }
 
+    private void init()
+    {
+        GameObject player = GameObject.Find("PlayerCapsule");
+        if (player)
+        {
+            playerStarterAssetsInputs = player.GetComponent<StarterAssets.StarterAssetsInputs>();
+            firstPersonController = player.GetComponent<StarterAssets.FirstPersonController>();
+        }
     }
 
     // Update is called once per frame
@@ -40,11 +52,29 @@ public class SortGame : MonoBehaviour
                 sortGameElements.Add(sge);
             }
         }
+        if (playerStarterAssetsInputs)
+        {
+            playerStarterAssetsInputs.SetCursorInputForLook(false);
+            playerStarterAssetsInputs.SetCursorLocked(false);
+            firstPersonController.enabled = false;
+        }
+        else
+        {
+            init();
+            playerStarterAssetsInputs.SetCursorInputForLook(false);
+            playerStarterAssetsInputs.SetCursorLocked(false);
+            firstPersonController.enabled = false;
+        }
     }
 
     private void OnDisable()
     {
-        
+        if (playerStarterAssetsInputs)
+        {
+            playerStarterAssetsInputs.SetCursorInputForLook(true);
+            playerStarterAssetsInputs.SetCursorLocked(true);
+            firstPersonController.enabled = true;
+        }
     }
 
     public void CheckSortGameResult()
@@ -65,10 +95,12 @@ public class SortGame : MonoBehaviour
         Debug.Log("result = " + result);
         if(string.Equals(result, sortGameAnswer.m_Answer) && !hasEmpty)
         {
+            //TODO: 撥放真結局
             Debug.Log("答對 ");
         }
         else
         {
+            //TODO: 撥放失敗結局
             Debug.Log("答錯 或仍有選項未填");
         }
     }

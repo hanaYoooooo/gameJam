@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/william/Scene/start.unity
+    guid: dc9c997108ab4fe489333982de9ba4b2
+  - enabled: 1
     path: Assets/william/Scene/main.unity
     guid: ed1bc8ce961c29744aa713ef80c8a0fc
   - enabled: 1
