@@ -5086,6 +5086,10 @@ MonoBehaviour:
         value: None()
         type: 0
         typeString: 
+      - title: EventGuid
+        value: fc1160b5-2cb2-4be9-85a2-1f0378ea5cf3
+        type: 0
+        typeString: 
       conversationID: 13
       isRoot: 0
       isGroup: 0
@@ -5157,6 +5161,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: ed7edb48-f99e-4f5f-9a29-e676c4bd182c
+        type: 0
+        typeString: 
       conversationID: 13
       isRoot: 0
       isGroup: 0
@@ -5299,6 +5307,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: e9a6ca34-80e4-4099-ac47-ea9978598dfc
+        type: 0
+        typeString: 
       conversationID: 13
       isRoot: 0
       isGroup: 0
