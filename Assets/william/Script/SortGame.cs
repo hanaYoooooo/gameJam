@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using static UnityEngine.UI.Extensions.ReorderableList;
 
@@ -13,6 +14,11 @@ public class SortGame : MonoBehaviour
     public Transform checkItemsRoot;
     public GameObject SortGameElementTemplate;
     public SortGameAnswer sortGameAnswer;
+
+    public GameObject TureEND;
+    public GameObject BadEND;
+    public GameObject ENDscroll;
+
     private string[] checkResult = new string[9];
 
     private List<SortGameElement> sortGameElements = new List<SortGameElement>();
@@ -95,13 +101,17 @@ public class SortGame : MonoBehaviour
         Debug.Log("result = " + result);
         if(string.Equals(result, sortGameAnswer.m_Answer) && !hasEmpty)
         {
-            //TODO: 撥放真結局
             Debug.Log("答對 ");
+            StartCoroutine(TureEnd());
         }
-        else
+        else if (!string.Equals(result, sortGameAnswer.m_Answer) && !hasEmpty)
         {
-            //TODO: 撥放失敗結局
-            Debug.Log("答錯 或仍有選項未填");
+            Debug.Log("答錯");
+            StartCoroutine(BadEnd());
+        }
+        else if (hasEmpty)
+        {
+            Debug.Log("仍有選項未填");
         }
     }
 
@@ -127,5 +137,25 @@ public class SortGame : MonoBehaviour
         int result = Int32.Parse(sArray);
         Debug.Log("index = " + result);
         checkResult[result - 1] = string.Empty;
+    }
+
+    IEnumerator TureEnd()
+    {
+        TureEND.SetActive(true);
+        yield return new WaitForSeconds(5);
+        TureEND.SetActive(false);
+        ENDscroll.SetActive(true);
+        yield return new WaitForSeconds(40);
+        SceneManager.LoadSceneAsync("start", LoadSceneMode.Single);
+    }
+
+    IEnumerator BadEnd()
+    {
+        BadEND.SetActive(true);
+        yield return new WaitForSeconds(5);
+        BadEND.SetActive(false);
+        ENDscroll.SetActive(true);
+        yield return new WaitForSeconds(40);
+        SceneManager.LoadSceneAsync("start", LoadSceneMode.Single);
     }
 }
