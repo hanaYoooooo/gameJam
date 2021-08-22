@@ -117,7 +117,7 @@ public class SortGame : MonoBehaviour
         string sArray = item.ToList.gameObject.name.Substring(4,1);
         int result = Int32.Parse(sArray);
         Debug.Log("index = " + result);
-        checkResult[result - 1] = sArray;
+        checkResult[result - 1] = item.SourceObject.GetComponent<SortGameElement>().order;
     }
 
     public void RemovedReOrderableListTarget(ReorderableListEventStruct item)
