@@ -11988,6 +11988,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fbxCandyBowl
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0eeaec102e7a84e4f854775c212b0305, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0eeaec102e7a84e4f854775c212b0305, type: 3}
 --- !u!4 &835126866767345741 stripped
@@ -12224,6 +12228,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 872658227032412274}
     m_Modifications:
+    - target: {fileID: 8652286771323694536, guid: 792d8603fbd74ae4da5598b90c7ea06f, type: 3}
+      propertyPath: m_SortingOrder
+      value: -10
+      objectReference: {fileID: 0}
     - target: {fileID: 8652286771323694537, guid: 792d8603fbd74ae4da5598b90c7ea06f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -12318,7 +12326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8652286773074714595, guid: 792d8603fbd74ae4da5598b90c7ea06f, type: 3}
       propertyPath: m_PlayAutomatically
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 792d8603fbd74ae4da5598b90c7ea06f, type: 3}
@@ -12337,6 +12345,10 @@ PrefabInstance:
     - target: {fileID: 1743903104223250, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
       propertyPath: m_Name
       value: FirstPerson-AIO
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743903104223250, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
       propertyPath: m_RootOrder
