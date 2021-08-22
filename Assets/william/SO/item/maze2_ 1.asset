@@ -16,7 +16,7 @@ MonoBehaviour:
   m_ItemData:
     m_Name: "\u65E5\u8A184"
     m_ItemType: 1
-    m_DisplayImage: {fileID: 21300000, guid: 9631c8200584f31468de7471b7a11acf, type: 3}
+    m_DisplayImage: {fileID: 21300000, guid: 5f0b9e78afc4685478c0f817ed0fac8f, type: 3}
     m_Description: "\u70BA\u4EC0\u9EBC\u6211\u9084\u662F\u5F97\u4E0D\u5230\u4F60\u5011\u7684\u611B,\u6211\u62FC\u547D\u8B80\u66F8,\u751A\u81F3\u662F\u6210\u529F\u505A\u51FA\u7D50\u679C\u4E86,\u4F46\u4F60\u5011\u537B\u9084\u662F\u53EA\u95DC\u5FC3\u5979,\u4E0D\u904E\u5F9E\u6B64\u4EE5\u5F8C\u5C31\u53EF\u4EE5\u53EA\u611B\u6211\u4E00\u4EBA\u4E86\u5427!!\u56E0\u70BA\u6211\u662F\u5982\u6B64\u7684\u611B\u4F60\u5011\u554A..."
     m_HasGotten: 1
     m_Order: 4
