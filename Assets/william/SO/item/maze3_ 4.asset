@@ -18,5 +18,5 @@ MonoBehaviour:
     m_ItemType: 2
     m_DisplayImage: {fileID: 21300000, guid: fef6c7a6df78bc74487e3b090ec56c22, type: 3}
     m_Description: "\u6574\u5929\u7AA9\u5728\u5BB6\u88E1,\u8B80\u6211\u6700\u559C\u6B61\u7684\u66F8,\u56E0\u70BA\u53EA\u6709\u66F8\u672C\u662F\u6211\u7684\u670B\u53CB"
-    m_HasGotten: 0
-    m_Order: 
+    m_HasGotten: 1
+    m_Order: 11

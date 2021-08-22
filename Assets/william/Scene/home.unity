@@ -2033,7 +2033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   overrideName: "\u907A\u66F8"
-  overrideUseMessage: 
+  overrideUseMessage: ...?
   maxUseDistance: 5
   events:
     onSelect:

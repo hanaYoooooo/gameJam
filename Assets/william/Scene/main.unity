@@ -1512,7 +1512,7 @@ MonoBehaviour:
   conversationActor: {fileID: 908646758}
   startConversationEntryID: -1
   exclusive: 0
-  replace: 0
+  replace: 1
   skipIfNoValidEntries: 0
   stopConversationOnTriggerExit: 0
   stopConversationIfTooFar: 0
@@ -3548,6 +3548,10 @@ PrefabInstance:
     - target: {fileID: 4515683989398717558, guid: a166935e4d08cba4e8c0d640d5bf18ab, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515683989398717559, guid: a166935e4d08cba4e8c0d640d5bf18ab, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1.654368
       objectReference: {fileID: 0}
     - target: {fileID: 4515683989542670100, guid: a166935e4d08cba4e8c0d640d5bf18ab, type: 3}
       propertyPath: m_IsActive
