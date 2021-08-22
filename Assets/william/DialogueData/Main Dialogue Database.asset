@@ -5306,7 +5306,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "\u7B49\u7B49?\u9019\u500B\u65E5\u671F\u662F30\u5E74\u524D\u7684\u4E86...\u96E3\u9053\u9019\u500B\u662F...?"
+        value: "\u7B49\u7B49?\u9019\u500B\u65E5\u671F\u662F20\u5E74\u524D\u7684\u4E86...\u96E3\u9053\u9019\u662F...?"
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
