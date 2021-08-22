@@ -166,11 +166,11 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: "\u64BF\u5730\u4E0A\u7684\u5831\u7D19\u67E5\u770B\u65E5\u671F"
+      value: "\u67E5\u770B\u9644\u8FD1\u7684\u56DB\u500B\u6771\u897F"
       type: 0
       typeString: CustomFieldType_Text
     - title: Success Description
-      value: "\u9019\u500B\u65E5\u671F...."
+      value: "\u9019\u500B\u65E5\u671F....\u4F3C\u4E4E\u56DE\u5230\u4E86\u904E\u53BB"
       type: 0
       typeString: CustomFieldType_Text
     - title: Failure Description
@@ -194,11 +194,11 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_QuestState
     - title: Entry 1
-      value: "[var=newspaper]/1 \u5DF2\u6536\u96C6"
+      value: "[var=newspaper]/4 \u5DF2\u67E5\u770B"
       type: 0
       typeString: CustomFieldType_Text
     - title: Display Name
-      value: "\u64BF\u8D77\u9644\u8FD1\u7684\u5831\u7D19"
+      value: "\u67E5\u770B\u9644\u8FD1\u7684\u6771\u897F"
       type: 0
       typeString: CustomFieldType_Text
     - title: Trackable
