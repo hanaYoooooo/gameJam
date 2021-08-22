@@ -487,4 +487,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0e4cd1ef26557e4429a389d5b333a505, type: 2}
   - {fileID: 11400000, guid: cde85311c5626e34cbb88e533efd00c2, type: 2}
   - {fileID: 11400000, guid: a118dc61c48d4cb409d71e5f5ef6d6f4, type: 2}
+  - {fileID: 11400000, guid: 89468f35899ead44c8690b44b519667d, type: 2}
+  - {fileID: 11400000, guid: d6a8f996a894a404ba0e98a89d104064, type: 2}
+  - {fileID: 11400000, guid: 111b4d6f46a4aa448aef8348888eb230, type: 2}
   nextScene: main
