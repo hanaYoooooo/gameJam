@@ -1491,6 +1491,76 @@ LightProbeGroup:
   - {x: 7.1518564, y: 2.7763042, z: -11.2319765}
   - {x: 8.993203, y: 2.3566551, z: -8.796325}
   m_Dering: 1
+--- !u!1001 &890159418
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1897643980}
+    m_Modifications:
+    - target: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 115.617645
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 115.617645
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200827386611395378, guid: beb4362b53a346547a63672d594167bd, type: 3}
+      propertyPath: m_Name
+      value: Ghost_ani
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: beb4362b53a346547a63672d594167bd, type: 3}
+--- !u!4 &890159419 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2819340366612803976, guid: beb4362b53a346547a63672d594167bd, type: 3}
+  m_PrefabInstance: {fileID: 890159418}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &908646755 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
@@ -3228,7 +3298,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897643976}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -3280,7 +3350,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.95, y: 1, z: 13.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 890159419}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3382,7 +3453,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 35f583f6f98ea494da4e049fc3a9a50f, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.525
   m_Pitch: 1
   Loop: 0
   Mute: 0

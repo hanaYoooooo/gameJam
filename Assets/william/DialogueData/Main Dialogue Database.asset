@@ -5947,8 +5947,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 31
-        y: 323
+        x: 35
+        y: 420
         width: 160
         height: 30
     - id: 3
@@ -6019,7 +6019,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 35
-        y: 130
+        y: 129
         width: 160
         height: 30
     - id: 4
@@ -6146,7 +6146,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 5
+        destinationConversationID: 14
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -6154,8 +6160,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 31
-        y: 264
+        x: 37
+        y: 340
         width: 160
         height: 30
     entryGroups: []
