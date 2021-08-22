@@ -151,6 +151,10 @@ MonoBehaviour:
       value: "[var=maze1item]/3 \u5DF2\u6536\u96C6"
       type: 0
       typeString: CustomFieldType_Text
+    - title: Abandonable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
   - id: 3
     fields:
     - title: Name
@@ -2220,8 +2224,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 33
-        y: 303
+        x: 32
+        y: 304
         width: 160
         height: 30
     entryGroups: []
@@ -2340,14 +2344,14 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: SetQuestState("maze1out", "unassigned");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 17
+        x: 31
+        y: 10
         width: 160
         height: 30
     - id: 1

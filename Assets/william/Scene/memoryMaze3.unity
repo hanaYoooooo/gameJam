@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 619e305f5165a9946b7f72464e44ca4a, type: 3}
   m_Sun: {fileID: 2114283754330233425}
-  m_IndirectSpecularColor: {r: 1.3382316, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 1.3382316, g: 1.4441268, b: 1.5784608, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -735,6 +735,7 @@ GameObject:
   - component: {fileID: 715090957}
   - component: {fileID: 715090963}
   - component: {fileID: 715090964}
+  - component: {fileID: 715090965}
   m_Layer: 0
   m_Name: Maze_2_item
   m_TagString: Untagged
@@ -911,6 +912,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &715090965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715090956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b38b57a34787724f96803fbd1a03a25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: a118dc61c48d4cb409d71e5f5ef6d6f4, type: 2}
 --- !u!1001 &746329221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -996,6 +1010,7 @@ GameObject:
   - component: {fileID: 856085580}
   - component: {fileID: 856085579}
   - component: {fileID: 856085578}
+  - component: {fileID: 856085586}
   m_Layer: 0
   m_Name: Maze_5_item
   m_TagString: Untagged
@@ -1172,6 +1187,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &856085586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856085577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b38b57a34787724f96803fbd1a03a25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 111b4d6f46a4aa448aef8348888eb230, type: 2}
 --- !u!1 &874605735
 GameObject:
   m_ObjectHideFlags: 0
@@ -2135,6 +2163,7 @@ GameObject:
   - component: {fileID: 1801973653}
   - component: {fileID: 1801973652}
   - component: {fileID: 1801973659}
+  - component: {fileID: 1801973660}
   m_Layer: 0
   m_Name: Maze_4_item
   m_TagString: Untagged
@@ -2311,6 +2340,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1801973660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801973651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b38b57a34787724f96803fbd1a03a25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: d6a8f996a894a404ba0e98a89d104064, type: 2}
 --- !u!1 &1817051916
 GameObject:
   m_ObjectHideFlags: 0
@@ -2327,6 +2369,7 @@ GameObject:
   - component: {fileID: 1817051917}
   - component: {fileID: 1817051923}
   - component: {fileID: 1817051924}
+  - component: {fileID: 1817051925}
   m_Layer: 0
   m_Name: Maze_3_item
   m_TagString: Untagged
@@ -2503,6 +2546,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1817051925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817051916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b38b57a34787724f96803fbd1a03a25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 89468f35899ead44c8690b44b519667d, type: 2}
 --- !u!1 &1875484844
 GameObject:
   m_ObjectHideFlags: 0
@@ -2658,6 +2714,7 @@ GameObject:
   - component: {fileID: 1883944276}
   - component: {fileID: 1883944278}
   - component: {fileID: 1883944279}
+  - component: {fileID: 1883944280}
   m_Layer: 0
   m_Name: Maze_1_item
   m_TagString: Untagged
@@ -2834,6 +2891,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1883944280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883944271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b38b57a34787724f96803fbd1a03a25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: cde85311c5626e34cbb88e533efd00c2, type: 2}
 --- !u!1 &1888283422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2978,6 +3048,8 @@ GameObject:
   - component: {fileID: 1897643982}
   - component: {fileID: 1897643981}
   - component: {fileID: 1897643984}
+  - component: {fileID: 1897643985}
+  - component: {fileID: 1897643986}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Untagged
@@ -3131,6 +3203,120 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 908218f57d4f8c94aa0c1f7bfe3adad1, type: 2}
+--- !u!114 &1897643985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897643976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adad455e8a4bf0d41882d30550b58e60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  incrementOnDestroys:
+  - {fileID: 1883944279}
+  - {fileID: 715090964}
+  - {fileID: 1817051924}
+  - {fileID: 1801973659}
+  - {fileID: 856085578}
+--- !u!82 &1897643986
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897643976}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 567b7d9c46488aa498efa28cd1b264a7, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1979352518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3300,7 +3486,8 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerFlow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"thisSceneMissionObj","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"next
       scene","value":{"$content":"main","$type":"System.String"},"$version":"A"},{"name":"target","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inventoryData","value":{"$content":[3,4,5,6,7],"$type":"System.Collections.Generic.List`1[[UnityEngine.ScriptableObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"reload
+      scene","value":{"$content":"memoryMaze3","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 908646756}
     - {fileID: 266627474}
