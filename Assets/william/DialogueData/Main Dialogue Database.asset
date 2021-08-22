@@ -3478,6 +3478,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: ffb27a82-63ec-48cb-a15f-d74a547584c7
+        type: 0
+        typeString: 
       conversationID: 7
       isRoot: 0
       isGroup: 0

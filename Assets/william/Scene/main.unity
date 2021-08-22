@@ -598,6 +598,22 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+  - guid: ffb27a82-63ec-48cb-a15f-d74a547584c7
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 179292483}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
 --- !u!4 &41476190
 Transform:
   m_ObjectHideFlags: 0
@@ -616,6 +632,11 @@ Transform:
 Camera:
   m_CorrespondingSourceObject: {fileID: 9005220659476430821, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
   m_PrefabInstance: {fileID: 60889539378096550}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &179292483 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8629403182879377274, guid: a166935e4d08cba4e8c0d640d5bf18ab, type: 3}
+  m_PrefabInstance: {fileID: 1301417186}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &318152332
 GameObject:
@@ -916,7 +937,7 @@ MonoBehaviour:
   maxConversationDistance: 5
   monitorConversationDistanceFrequency: 1
   showCursorDuringConversation: 0
-  pauseGameDuringConversation: 1
+  pauseGameDuringConversation: 0
   setActiveActions: []
   setEnabledActions: []
   setAnimatorStateActions: []
@@ -3438,6 +3459,18 @@ PrefabInstance:
     - target: {fileID: 8629403182863834656, guid: a166935e4d08cba4e8c0d640d5bf18ab, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629403182879377274, guid: a166935e4d08cba4e8c0d640d5bf18ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629403182879377278, guid: a166935e4d08cba4e8c0d640d5bf18ab, type: 3}
+      propertyPath: m_SortingOrder
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863266211416683264, guid: a166935e4d08cba4e8c0d640d5bf18ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a166935e4d08cba4e8c0d640d5bf18ab, type: 3}
