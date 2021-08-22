@@ -18,6 +18,7 @@ public class SortGame : MonoBehaviour
     public GameObject TureEND;
     public GameObject BadEND;
     public GameObject ENDscroll;
+    public GameObject audio;
 
     private string[] checkResult = new string[9];
 
@@ -141,6 +142,7 @@ public class SortGame : MonoBehaviour
 
     IEnumerator TureEnd()
     {
+        audio.SetActive(false);
         TureEND.SetActive(true);
         yield return new WaitForSeconds(5);
         TureEND.SetActive(false);
@@ -151,6 +153,7 @@ public class SortGame : MonoBehaviour
 
     IEnumerator BadEnd()
     {
+        audio.SetActive(false);
         BadEND.SetActive(true);
         yield return new WaitForSeconds(5);
         BadEND.SetActive(false);

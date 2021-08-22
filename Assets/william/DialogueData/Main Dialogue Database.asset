@@ -2966,7 +2966,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 24
-        y: 434
+        y: 433
         width: 160
         height: 30
     - id: 5
