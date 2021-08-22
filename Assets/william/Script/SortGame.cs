@@ -113,6 +113,7 @@ public class SortGame : MonoBehaviour
         else if (hasEmpty)
         {
             Debug.Log("仍有選項未填");
+            StartCoroutine(BadEnd());
         }
     }
 

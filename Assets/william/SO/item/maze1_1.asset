@@ -18,5 +18,5 @@ MonoBehaviour:
     m_ItemType: 0
     m_DisplayImage: {fileID: 21300000, guid: 98e4f37acbcc26b43a3250c8e5597312, type: 3}
     m_Description: "\u8003\u8A66\u8003\u4E86\u4E00\u767E\u5206,\u771F\u5E0C\u671B\u53EF\u4EE5\u591A\u8A87\u734E\u6211\u4E00\u9EDE...\u6211\u9019\u9EBC\u52AA\u529B\u8036!!\u4E0D\u516C\u5E73...\u4F46\u662F\u4E0D\u7BA1\u600E\u9EBC\u6A23\u6211\u9084\u662F\u60F3\u77E5\u9053\u66F4\u591A\u7684"
-    m_HasGotten: 1
+    m_HasGotten: 0
     m_Order: 1
