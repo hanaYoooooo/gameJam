@@ -1711,7 +1711,7 @@ MonoBehaviour:
   conversationActor: {fileID: 908646758}
   startConversationEntryID: -1
   exclusive: 0
-  replace: 0
+  replace: 1
   skipIfNoValidEntries: 0
   stopConversationOnTriggerExit: 0
   stopConversationIfTooFar: 0
